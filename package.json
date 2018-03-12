@@ -1,0 +1,32 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "The NodeJS Static Web server",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xuemuyang/anydoor.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xuemuyang/anydoor/issues"
+  },
+  "homepage": "https://github.com/Xuemuyang/anydoor#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "supervisor": "^0.12.0"
+  },
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  }
+}
