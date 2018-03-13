@@ -24,6 +24,7 @@
   "homepage": "https://github.com/Xuemuyang/anydoor#readme",
   "dependencies": {
     "chalk": "^2.3.0",
+    "handlebars": "^4.0.11",
     "supervisor": "^0.12.0"
   },
   "devDependencies": {
