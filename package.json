@@ -1,5 +1,5 @@
 {
-  "name": "anydoor",
+  "name": "anydoor_myoung",
   "version": "0.1.1",
   "description": "The NodeJS Static Web server",
   "main": "src/app.js",
